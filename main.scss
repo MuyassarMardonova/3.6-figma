@@ -1,0 +1,468 @@
+  $color-black:#000;
+  $font-montserrat:'Montserrat', sans-serif;
+  $font-poppins:'Poppins', sans-serif;
+  $bg-color:#FFF3E3;
+  $color-box:#333;
+  $colorbox-h1:#B88E2F;
+
+.container{
+   
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.navbar{
+    width: 1286px;
+   
+    padding-left: 54px;
+    padding-right:100px;
+    display: inline-flex;
+   
+    &__content{
+        display: inline-flex;
+        gap: 200px;
+        padding: 30px;
+    }
+
+    &__logo{
+          
+        img{
+        width: 50px;
+        height: 32px; 
+       }
+          
+          b{
+            color: $color-black;
+            font-family: $font-montserrat;
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+
+    }
+    &__menus{
+        
+       ul{
+        display: inline-flex;
+        gap:60px;
+        list-style: none;
+            
+        a{
+            text-decoration: none;
+            font-family: $font-poppins;
+            color: $color-black;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+        }
+       }
+    }
+    &__icons{
+          padding: 36px;
+          display: inline-flex;
+          gap: 45px;
+          
+        
+
+
+             &__icons-content{
+              width: 28px;
+              height: 28px;
+              flex-shrink: 0;
+             }
+        
+    }
+
+}
+
+.mask-group__content{
+    background-image: url(./images/scandinavian-interior-mockup-wall-decal-background\ 1\ \(1\).jpg);
+    height: 717px;
+    position: relative;
+
+    .mask-group__box{
+        padding-left: 41px;
+        width: 643px;
+        height: 443px;
+        border-radius: 10px;
+        background: $bg-color;
+        position: absolute;
+        top: 153px;
+        right: 58px;
+
+
+
+        p{
+            margin-top: 62px;
+            color: $color-box;
+            font-family: $font-poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 3px;
+        }
+
+        h1{ 
+            margin-top: 6px;
+            width: 559px;
+            height: 127px;
+            color: $colorbox-h1;
+            font-family: $font-poppins;
+            font-size: 52px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 65px; 
+            margin-bottom: 17px;
+        }
+
+
+        span{
+           
+            color: $color-box;
+            font-family: $font-poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; 
+        }
+
+
+        button{
+            margin-top: 46px;
+            display: inline-flex;
+            padding: 25px 72px;
+            align-items: flex-start;
+            gap: 10px;
+            background: $colorbox-h1;
+            border:none;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+
+.browsetherange{
+    width: 1183px;
+    height:685px;
+    position: relative;
+    top:10px;
+    left:131px;
+    
+
+    &__imgs {
+        width: 381px;
+        height:480px;
+        display: flex;
+        gap:20px;
+        position: absolute;
+        top:130px;
+        margin-top: 48px;
+        
+       
+
+}
+   
+
+    &__text {
+        text-align: center;
+         padding:20px 0px;
+       
+        h3{
+            font-family:$font-poppins;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 48px;
+            margin-bottom: 0px;
+        }
+         p{
+            
+            font-family: $font-poppins;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+
+        }
+         span {
+            font-family: $font-poppins;
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+      
+    }
+
+        
+}
+
+.browsetherange__imgs1{
+    border-radius: 20px;
+}
+
+.browsetherange__ims2{
+    border-radius: 20px;
+}
+
+.browsetherange__imgs3{
+    border-radius: 20px;
+}
+
+
+.ourproduct{
+    padding-left: 250px;
+    margin-top: 40px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h3{
+        font-family: $font-poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 5px;
+        padding-right: 90px;
+      
+
+    }
+    .frame7{
+        display: inline-flex;
+        width: Hug (1,236px);
+        height: Hug (446px);
+        gap: 32px;
+    
+       
+
+    }
+
+    .card{
+        width: 285px;
+        height: 446px;
+        background-color: #F4F5F7;
+        
+
+         
+
+
+        h3{
+            font-family: $font-poppins;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #3A3A3A;
+        }
+
+
+        p{
+            font-family: $font-poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #898989;
+
+        }
+
+
+        h4{
+            font-family: $font-poppins;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #3A3A3A;
+
+        }
+        
+    
+    }
+
+   
+
+
+    .frame8{
+        display: inline-flex;
+        width: Hug (1,236px);
+        height: Hug (446px);
+        gap: 32px;
+        margin-top: 20PX;
+        
+       
+
+    }
+
+    .card{
+        width: 285px;
+        height: 446px;
+        background-color: #F4F5F7;
+        
+        
+        
+
+        h3{
+            font-family: $font-poppins;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #3A3A3A;
+        }
+
+
+        p{
+            font-family: $font-poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #898989;
+
+        }
+
+
+        h4{
+            font-family: $font-poppins;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #3A3A3A;
+
+        }
+        
+    
+    }
+
+    button{
+        
+        width: 245px;
+        height: 48px;
+        border: 1px solid #B88E2F;
+        color: #B88E2F;
+        background-color: #FFFFFF;
+        font-family: $font-poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: -80px;
+        left: 1000px;
+
+    }
+}
+
+.Inspirations{
+    display: inline-flex;
+    margin-top: 100px ;
+    position: relative;
+  
+    background-color: #FCF8F3;
+    width: 1440px;
+    height: 670px;
+    padding: 30px;
+
+
+
+
+    .Inspirations__text{
+        width: 30%;
+        padding-left: 50px;
+
+        h2{
+           padding-top: 30%;
+          
+            font-family: $font-poppins;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0em;
+            text-align: left;
+            ;
+        }
+
+        p{
+
+            font-family: $font-poppins;
+            
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color:#616161;
+        }
+
+
+        button{
+            left:50px;
+            font-family: $font-poppins;
+            font-size: 16px;
+              font-weight: 600;
+           line-height: 24px;
+           letter-spacing: 0em; 
+          text-align: left;
+              width: 176px;
+            height: 48px;
+            background-color: #B88E2F;
+            color: white;
+            text-align: center;
+            border: none;
+
+
+
+
+        }
+    }
+
+   
+    .Inspirations__images{
+        margin-top: 40px;
+        width: 60%;
+        display: inline-flex;
+        gap: 20px;
+
+        .img1{
+            width: 404px;
+            height: 582px;
+        }  
+
+        .img2{
+            width: 372px;
+            height: 486px;
+        }
+
+        .img3{
+            width: 372px;
+            height: 486px;
+
+
+        }
+    }
+
+    .indicator{
+        position: absolute;
+        width: Hug (120px);
+        height: Hug (27px);
+        bottom: 100px;
+        right: 440px;
+
+
+    }
+}
